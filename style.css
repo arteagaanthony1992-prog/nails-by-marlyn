@@ -55,15 +55,15 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-
-    padding:18px 0;
+    padding:12px 0;
 
 }
 
-.logo img{
-
-    width:180px;
-
+.logo img {
+    width: 140px;
+    height: auto;
+    max-height: 70px;
+    display: block;
 }
 
 .nav-links{

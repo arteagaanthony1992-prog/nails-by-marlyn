@@ -38,31 +38,33 @@ body{
    HEADER
 =========================== */
 
-.site-header{
-
-    position:sticky;
-    top:0;
-    z-index:999;
-
-    background:white;
-
-    box-shadow:0 2px 12px rgba(0,0,0,.08);
-
+.site-header {
+    background: white;
+    box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.nav-container{
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:12px 0;
-
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
-    width: 140px;
-    height: auto;
-    max-height: 70px;
+    width: auto;
+    height: 65px;
+    max-width: 220px;
+    object-fit: contain;
     display: block;
 }
 
